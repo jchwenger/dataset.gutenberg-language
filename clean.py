@@ -12,7 +12,7 @@ import json
 import string
 import re
 from nltk import word_tokenize, sent_tokenize
-from gutenberg_downloader import *
+from download import *
 
 TEXT_START_MARKERS = frozenset(
     (
